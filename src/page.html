@@ -8,10 +8,12 @@
 </head>
 <body>
 
-<div class="container-fluid" id="main-info">
-    <h1>Techno Career</h1>
-    <p>Самое масштабное карьерное мероприятие для студентов технических специальностей в Питере!</p>
-    <button type="button" class="btn btn-primary btn-large">Присоединиться</button>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center" id="main-info">
+        <h1>Techno Career</h1>
+        <div class="lead">Самое масштабное карьерное мероприятие для студентов технических специальностей в Питере!</div>
+        <button type="button" class="btn btn-success btn-large">Присоединиться</button>
+    </div>
 </div>
 
 <div class="container-fluid" id="short-info">
@@ -20,44 +22,52 @@
     <p>Место: пространство Ткачи, ст.метро "наб.Обводного Канала"</p>
 </div>
 
-<div class="container-fluid" id="statistic-info">
-    <div class="row">
+<div class="container-fluid lead" id="statistic-info">
+    <div class="row text-center">
         <div class="col-md-4">
-            <img src="http://localhost:63343/lab2/src/page.html?_ijt=pk0hr0nv73ekeon632otf498i7" alt="icon1">
+            <img src="image1.PNG" alt="icon1">
             <p>20+ компаний предлагают стажировки и вакансии</p>
         </div>
         <div class="col-md-4">
-            <img src="http://localhost:63343/lab2/src/page.html?_ijt=pk0hr0nv73ekeon632otf498i7" alt="icon2">
+            <img src="image2.PNG" alt="icon2">
             <p>Более 5.000 технарей побывали на TechnoCareer</p>
         </div>
         <div class="col-md-4">
-            <img src="http://localhost:63343/lab2/src/page.html?_ijt=pk0hr0nv73ekeon632otf498i7" alt="icon3">
+            <img src="image3.PNG" alt="icon3">
             <p>Пройди собеседования прямо на форуме</p>
         </div>
     </div>
 
 </div>
 
-<div class="container-fluid" id="full-info">
-    <p>На форуме ТОП-работодатели предлагают стажировки и объясняют, почему выгодно развиваться именно у них.
+<div class="container-fluid lead" id="full-info">
+    <p>ТОП-работодатели предлагают стажировки и объясняют, почему выгодно развиваться именно у них.
         Ты поймешь, что у тебя есть выбор, куда идти. Сделай первый шаг - приходи на форум. HR уже собрались :)
         Большинство компаний предлагают технарям гибкий график, работу в интересных проектах и высокую зарплату.</p>
     <p>На форуме тебя ждёт возможность пройти несколько собеседований в ТОП-компании.
         Улучши навыки ответов на вопросы и получи обратную связь от HR</p>
 </div>
 
-<div class="container-fluid">
-    <h1>Запишись на форум уже сейчас!</h1>
-    <h2>Оставить заявку</h2>
-    <div class="form-group">
-        <label>Ссылка вконтакте:</label>
-        <label>
-            <input class="form-control">
-        </label>
-        <button class="btn btn-primary">Отправить заявку!</button>
+<div class="container-fluid" id="subscribe-form">
+
+    <div id="pre-form-info" class="text-center">
+        <h1>Получи свой билет!</h1>
     </div>
 
+    <form role="form">
+        <div class="form-group">
+            <label for="email"><b>Твой e-mail</b></label>
+                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group">
+            <label for="name"><b>Твое имя</b></label>
+                <input class="form-control" id="name" placeholder="Иван">
+        </div>
+            <button type="button" class="btn btn-primary">Отправить заявку!</button>
+    </form>
 </div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
